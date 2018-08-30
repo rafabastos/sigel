@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8f668dd2-220a-47de-968b-7e6364e9a4b5" namespace="sigel.Module.BusinessObjects.ORMDataModel1" dataBaseShemaInfo="H4sIAAAAAAAEAN1a224bNxB9D5B/EPwcSrxfAllBKrtB0DQwYqfo65AcOouutMKuZDt/35ElO7GdtGkjr5C8COKQxPLszJw5Q2n84mpWDy6w7apmfngghvzgxeTpk/Ev0OHpsmnhHF/PSzOgVfPu+VVXHR58WC4Xz0ejy8vL4aUaNu35SHIuRn/+/uY0fcAZsGreLWGe8OB2V/73XQf01MFgfAaxxm79yOvxjeUzw43pLcxwckIHb+YwHn0y3a46nq9tk2W7wvFoO7idPKq6teH9IsMSJwXqjhbdNd6ufbWq8us8KSkGLqRhKC1n2hjOoATLskUtdC4qQRqPtotvN0+bejWbd3cAfNVME2sMm8nJ22YWWzrWZ6Y7S/8J4H8F+TlQ5YGDFARPoWQ6aWQx8cCc8YL77LQA/QAobR99B9aXC6yr3PQP1luRY4qeWaMJbDGZRe8dCxlARxWFKHbXYM+qRXPUpNUM58s9QObae/BKMSzgmOYhMXBOMSNcCM7LpB3uGvJbAtvuE7SS2XkdI7MYAtOYDQslamZSlqCF0JDdY/j5lqH6BiyiN7p4xQIExbT1lnlTMjPccmNDjBjM43j5DGsszXwPTk6Si4hFseQTJbO0kgVVOEOvUozFUMCHx8E8xXpVQ9s/ZJM0VSHlmU9OUDJDZsA9MOMLRFSKy/KwKn0n5OMZVHX/ULXiSWSfybFSMx2p9kaPlMLgZJFW2CB3Xpc2NfgI62PSNHS8VM2qPRGYcUoYFRnnlhztiMqiVZmhUUoVI3Ixctfo3zQJqCxD7h+u9V654CKjEkzO5obgXqdyNiE7qbNyO4/rI1xAu4R9eTgTU4voPBMIhmkImnlP4KVFb4sxMsqde3hbl/Fnqcxfsm67g29uKt53K2irppemwqEMJpEMC576CZ1BkhYLyISISmhbEkLZaVOxNz2i4rp/yIJ5QaJEC7tOaCOYCwo1WB/QQq9ufoc1JOp6e/GzTOi0ojLNrSFlkgP5GXNkCaxQhZKeZMtO/XyEXWqrxQZg79pTGW6cUMxboJQOhdByaq9ECcRoTlJQq159fQJV14ufo3GQM7XNUBLlM5I8AUkNdLAkPYuPOiaxUz9Pm1yd74G1TXGcS6OpIJeyvg2xLEhDPIbZWu8UsdcjibH+sZK4TNmBZ1E60iIh0DdXqE5HraMmWkMbew3ne0Klh7jODjNmgcyISAI85cSi4JTRklrJgOCMzT/F5ZfmMYVA9JycJxGGMlPBUuR1T2LbJQtEXruO6w079Y1USm5LtJYJE4iqig1UkoJb3xfoQN2Ui6bfqJ5Wq+tWo4dwTo5KLmTLsgyJvCwso5Egqa1EsDyopB5qzh8xnEuyOTmi6QRATl6Lj0j1iaSXtwTdZBQ7v+vbdxslQhRoPAt6zdaCPqIojkWNPNgUrRH9Cs3Tqu6HpAs3KlpJ3JUz1eRUAoGmdgoU6RBdvAT78Mrvh4xqa3UxGqggF6BOWVNXkaiXEKkgeG85mp8tqmOSSgEJS6IpTw2E5MzrkteMpYzXJLhw59e5N4Tc+91PVtFwhyxpSVhV0cxHbpkKSfKoBUr49sr0fy5C9uRjUNo5cI7l7Eh7SG1YMMoxkyFFTpms024r8nb8acl4/Zsv5pO2SdfGwWhj/mPzAzElwcXx1aLFrhsewRKGF8IN5bPBdvpwPRq6IX82mK7q5arFwzmuli3UzwYnq1hX6Tf8eNb8hfPD6H0WVJcydRGoAxHyzSOunzetoeuwWzvg3er27Y5fZjoalupqe66N6XRV7pje4ay5wPsLN9b7a6fQ4eT9PH2A+TlSqF+PN6/mS2cY05tZYLus9ny2rxxj/Arn2FJ4TZvZ+jav28boA/OdxUfYVef09deKQuHejrtzT5+MR/f+GTD5G6qmbPVCIAAA" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="6a8a9eb4-fd3c-44d0-b6d8-88f2f18918cd">
+      <externalPersistentType Id="e28b1ac4-fb1e-4a3f-b608-4e173fc11017" name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" nameSpace="DevExpress.Persistent.BaseImpl.PermissionPolicy" virtualName="PermissionPolicyUser" assemblyName="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v17.2.dll" deferredDeletion="True" optimisticLocking="True" hasDefaultConstructor="false" constructorParameterType="Session" hasSessionSpecifiedConstructor="false">
+        <fields>
+          <generalXpObjectHasFields Id="a412f1c1-53f9-488f-952f-293b25238ca7">
+            <externalPersistentTypeField Id="08003c01-3418-444d-afa9-071390f609b9" name="oid" virtualColumnType="Guid" key="true" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a6c5071c-c25e-4112-b441-c586b475e7dd">
+            <externalPersistentTypeField Id="38e075a3-7929-45f4-a744-c0f180d321d8" name="StoredPassword" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2d3e9f5a-0d40-478b-921b-80f69b403474">
+            <externalPersistentTypeField Id="608d7401-7a0d-4c56-adaa-1e72851a5f15" name="ChangePasswordOnFirstLogon" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="40acfb5a-acd2-4aee-9692-0ff2e5707a9b">
+            <externalPersistentTypeField Id="14b39fdd-ea88-44cc-87ca-13977640021a" name="UserName" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2e8fdea4-09f1-4205-bd2d-dd34653a36b7">
+            <externalPersistentTypeField Id="099395d8-a669-49f9-b1dd-2e65c9eda57c" name="IsActive" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+        </fields>
+      </externalPersistentType>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="c1d08186-6380-4b0c-9870-bfa4d1456c6b">
+      <xpObject Id="fcb90125-e260-4550-af96-d6e414df3cac" name="Persona" baseClass="XPObject" userFileName="Persona" designerFileName="Persona.Designer" className="Persona" virtualName="Persona">
+        <fields>
+          <generalXpObjectHasFields Id="8691d84c-f31a-46de-8532-a46cfeee4084">
+            <field Id="38a0a210-a3e2-4c4e-bc09-758108d741a4" name="Nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4689e024-442b-4622-ba8a-e8fe06a181c6">
+            <field Id="861dbcb8-6542-4f5d-b887-9daa4b3b11f6" name="Apelido" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="53778d1e-3dd8-492b-a668-69d848b69639">
+            <persistentAlias Id="f746761e-35ed-4d8b-8f3b-c0bd4afe6344" name="NombreCompleto" virtualColumnType="String" expression="[Nombre] + ' ' + [Apellido]" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3a5e33c1-4ac8-41cb-a83e-fc0f27b9d150">
+            <field Id="0488a833-efa7-409c-a773-51799782c47e" name="TipoDocumento" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ec7ced97-86cc-43e2-b397-bff21a68aa51">
+            <field Id="32d784bb-6e99-4ed5-9fb4-5cd2a4114ad7" name="NumeroDeDocumento" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f7ae5555-ca42-4713-977e-7b29fbc78f19">
+            <field Id="1b854f83-9a93-4686-85fd-5060569bbe95" name="TipoPersona" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7500b428-b91e-4a2d-8ea9-979e36a3d286">
+            <field Id="c201bef3-c8c2-4262-93f0-e83cbbf5efa9" name="NumeroTelefono" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="69491e1b-417e-412a-a20d-0217c61d6129">
+            <field Id="5c4af938-8c71-40ad-a08a-58fabe3302fc" name="NumeroCelular" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2ae7b50c-880a-42b5-8329-0c6bb9cc71fa">
+            <field Id="430c1d8d-4224-4b96-b8e4-5a72f2616924" name="Email" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1d358e64-8833-4739-b401-04de01ca5825">
+            <field Id="3573153b-0061-47bb-b63d-e5333f51df52" name="NombreDelEstablecimiento" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f811bbf7-5545-4ac1-9090-8e42cd308f33">
+            <field Id="6883797b-3b14-405b-b3f0-ed59d724d37c" name="Localidad" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7ea1c65d-ee7d-4469-b46a-57db0659ffed">
+            <field Id="d9a91b78-1ea5-4a94-8814-26e86f552b22" name="Departamiento" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <mMTarget>
+          <manyToManyRelationship Id="e3d087b0-157b-4c2c-8188-15d27c5dcc50" sourceCollectionName="Relacions" name="RelacionReferencesPersona" targetCollectionName="Personas">
+            <xpObjectMoniker Id="2ce74338-0652-4d92-aedb-ca613fb78bef" />
+          </manyToManyRelationship>
+        </mMTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="6f42068d-0390-4fad-9efe-0687ae719f1e">
+            <collectionField Id="aa6cbbe1-816f-49a5-ab59-0c56572c2bbf" name="Relacions" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="61e3b0ff-e36f-4b33-886f-c3acb4b336b3">
+      <xpObject Id="7e295ca7-9850-4da2-a79e-11b3146fceaf" name="Usuario" baseClass="XPObject" userFileName="Usuario" designerFileName="Usuario.Designer" className="Usuario" virtualName="Usuario">
+        <fields>
+          <generalXpObjectHasFields Id="46f1cbf9-d8d6-4631-a76d-dbd27bf10cc1">
+            <field Id="3b7581d1-8183-416b-b351-793e4a689e6a" name="Persona" virtualColumnType="Persona" logicalType="Persona" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="0497cb4c-7945-4b92-a576-ce7f65ba469f">
+      <xpObject Id="2ce74338-0652-4d92-aedb-ca613fb78bef" name="Relacion" baseClass="XPObject" userFileName="Relacion" designerFileName="Relacion.Designer" className="Relacion" virtualName="Relacion">
+        <fields>
+          <generalXpObjectHasFields Id="47bc7df4-cdcf-44d8-9b4a-0d37b7fb3a26">
+            <field Id="13505713-86a9-49f2-a042-1f988172eaf3" name="Descripcion" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="ae15e07a-1199-4205-bd6f-57da3777bcad">
+            <collectionField Id="bcaac567-9aea-4f51-a016-4dadf43f2791" name="Personas" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="d7b3441d-4f96-406e-834a-81fb12d3ff36">
+      <xpObject Id="b57adde2-afc0-4ee4-a24e-96fa9f8b4bc1" name="Pais" baseClass="XPObject" userFileName="Pais" designerFileName="Pais.Designer" className="Pais" virtualName="Pais">
+        <fields>
+          <generalXpObjectHasFields Id="70077fda-109b-4c32-b225-5ba19a463550">
+            <field Id="5f700254-edff-4556-9257-9ed668733144" name="Codigo" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c2ab218a-fe89-4637-a39f-bfd7795054c0">
+            <field Id="f26cd7a8-b274-4998-b7f8-1b44b4758e6b" name="Nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="b7d9462b-e8f6-4b9f-ba7f-1e5d661147a6" sourceCollectionName="Departamientos" name="DepartamientoReferencesPais" targetFieldName="Pais">
+            <xpObjectMoniker Id="d7eded1e-51bd-4cdc-b102-1269b9ea756d" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="a7a2b84e-3700-4559-829d-16fe7dd9526d">
+            <collectionField Id="4cd64927-8515-4765-8639-06d214e86647" name="Departamientos" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="284105b1-9240-4108-98af-d24f70efe10b">
+      <xpObject Id="d7eded1e-51bd-4cdc-b102-1269b9ea756d" name="Departamiento" baseClass="XPObject" userFileName="Departamiento" designerFileName="Departamiento.Designer" className="Departamiento" virtualName="Departamiento">
+        <fields>
+          <generalXpObjectHasFields Id="870ec749-37bd-45a6-807a-cf69c67cce51">
+            <field Id="40bc9992-c785-4e2d-8134-4863d7c6a2ea" name="Nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f2d71c3e-7b59-4ef4-b975-ae98a19db07f">
+            <field Id="2206fb66-1590-4f69-ae97-9a9496167b5b" name="Pais" virtualColumnType="Pais" logicalType="Pais" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="c52363b3-616a-420e-9ef3-a9f825f14692" sourceCollectionName="Ciudades" name="CiudadReferencesDepartamiento" targetFieldName="Departamiento">
+            <xpObjectMoniker Id="c7b78ad6-d29c-4e16-ad61-263196093c37" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="285cbb99-50b9-4e5c-a59b-b07fa3884b1a">
+            <collectionField Id="ffaee100-68d3-423d-8922-54520e01b9ba" name="Ciudades" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="b1b9cd48-43eb-4e33-b3d5-a1648314417f">
+      <xpObject Id="c7b78ad6-d29c-4e16-ad61-263196093c37" name="Ciudad" baseClass="XPObject" userFileName="Ciudad" designerFileName="Ciudad.Designer" className="Ciudad" virtualName="Ciudad">
+        <fields>
+          <generalXpObjectHasFields Id="1f45887d-ef8d-4675-8542-76e8ef6b6cf2">
+            <field Id="fc6dc754-caa0-4652-bdde-b38629c5de1e" name="Nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="933b307b-ad53-4466-a4ea-900a737a382e">
+            <field Id="d19b1e58-9474-4174-b1f7-b4e096cb651a" name="Departamiento" columnType="DateTime" virtualColumnType="Departamiento" logicalType="Departamiento" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="b381748e-d5c3-46cb-bb79-d0ed684ace23">
+      <xpObject Id="f053b622-cddf-4cf9-b4d5-a3ee44f82a65" name="Silo" baseClass="XPObject" userFileName="Silo" designerFileName="Silo.Designer" className="Silo" virtualName="Silo">
+        <fields>
+          <generalXpObjectHasFields Id="26cfd489-1f7b-4f26-a81e-22f90d7784be">
+            <field Id="f664f54a-b2fa-4a41-8c51-1cfea8860e5e" name="Nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="52cb12f8-116a-4572-aca8-13339b6eef9a">
+            <field Id="bc233ae2-d618-4d20-84fd-2633584733e5" name="Departamiento" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fb096f28-c5dc-463c-8363-ba5b6cca2969">
+            <field Id="6d3b507e-c428-43f4-8b06-39c20b41e2ab" name="Ciudad" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2619e7d7-97de-4371-b3ad-bc7f2d65df2e">
+            <field Id="a3477a77-dd75-4245-9537-5dacb04d54cb" name="NumeroDeDocumiento" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

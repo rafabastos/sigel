@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5a31f047-c4dd-41e0-978b-068a096ad3e0" namespace="sigel.Module.BusinessObjects.Gestiones" dataBaseShemaInfo="H4sIAAAAAAAEAM2Z227cNhCG7wPkHQxfh16eD8F6g9R23KBOENhO0dshOXSE7kqGpLXdPn1H640TO0kPiGL1ThxSED8OOfMPNX9xs1ruXGHbVU29vyv2+O6LxdMn85+gw7O+aeECX9el2aFRdff8pqv2dz/0/eXz2ez6+nrvWu017cVMci5mv705OUsfcAWsqrse6oS7d2/lf35rl766szM/h7jEbvjkpv3R8pnho+ktrHBxjF1PE3/T1B3UfTOffeq6G31UD7ZF365xPts27joPq24wvL/M0OOiwLKjQfeNd2OP11V+nRfClaiFBpZVikwHJ1iIDljKSXOIMoGA+Ww7+O7lg2a5XtXdPZBvmqljYLjtXBxAewG5ede089ln5nvD/w7yv4J+DiuD8C5yw1wJhWnLLfPGOBaVgxBTUGjcF7D0+uw7eF9h+gCHuMF+fGIhXIxGc6a51kyDRhalk8xLl4M1ljwcxyY+ylU/lYdRy2gSL4yDBfKwCyz6GJjhzhYluZQp/BAPE3Sis/v4xNpZIS152GAkYu6BhRANA5mpEYW21o5N/K5t8jr1Uzg4myhMcJ457xzTqDgLVnlmeaG45UPkUY6N+7ZZxRYnhJZZBZmsZ6ByYtqoTKc4ZaYg+4QuWoxlbOjz6rI5bNJ6VSHlognhIRvDszIsc6WYTsKzmIxmKRUNQFHbZjW6x9crbP8f+Em7kHg2rORE+Coq5rmlplMxJFGQ59E3/DkusTT1lNiliGRyjowroFTtk2ZB0YmntUghqJy1Gh37aAXVckLmSCFcSldYKXnQYkaw6Ipi6IXJyQpj85da7HuZN+q2ggmxKX85zjNhu+CZzoUEWcTMQuEpceq0fnTskybBssqQp0xlypiSs2UZPG1x8jHzmVSL1A6sBa+VHj2qH+IltD1MHtXQS+tLzAzicLyzDSxIyZkIKnorhE7jq5afgfp7SD0cYNtXpUqQJ5DkqJLWHki8BI+DROW0CEYxpz2XaEGJlMZGP63qjJNScydkMhJY4UjUJUhGhZhkIrkoLGZLou7HOfwUO2yvqAw7bqFupqC3hlvuWFEmkEindYjCIXPKaQEhec1H3+4bn08NnpxBE4pgRtFh10aT25WlclRHiu1RosTR3X5WLZujum/xAjbUt/L98dkdVZvWS0mlirLEngqDIAsTwCVXRcYYRs9rp/BnUx/iCZwsYTXJQVfKcZKmBLyJcYbqUR8pvAtfIKmEVJSasakPmhXlM2irCXZ4kBalJkCqyCTpc05CNVKpVoCUuXApgxmdd3undAIHTTc8TiBVRTHREHUqlqRqckBluNfMGs+5ECrL7MemftP01VUz6eb2TloqQATzNlA489ayMFw0QdFOlOg1WPwhhThu74YfH9noIk0KiWUX6DwLjJS6tGKKHK8ogys67KOfZ6hhOcFVGmhPZScVmZzCtJaJlBlpFuZoP5NCBXCRjy/I2+oKcvNyghKbU2llomNG8+FWSZBnsVC4Vgls5hSvw7+/K/2adfsD486ybX8aMh9+yuBQg6WNcWd2a/719g8OLc7V0c1li123dwg97F0Jtyef7Wy794fWntvjz3YO1st+3eJ+jeu+heWznXfruKzSL/jHefM71vvRe4rFRmcqNFEPaffjJzbfO1hC12E3OOB0fbe685eZpoalutnO69Z0ti73TKe4aq7w4cBb68OxB9Dh4n1NIbu+wExrNrRvl+Zrc5jTylwOqn3iuX1jGvNjrLGl7UX5d0jA3XaPfmG+N/gQu+qCHl9VtBUevHG/7+mT+ezBr7vFXz9R6rzjGwAA" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="9e96d42d-86b2-47c1-9588-970e65e55e1b">
+      <xpObject Id="17fb414a-d3cb-4971-9b7a-cdc40ab2ca1a" name="GestionMonsanto" baseClass="XPObject" userFileName="GestionMonsanto" designerFileName="GestionMonsanto.Designer" className="GestionMonsanto" virtualName="GestionMonsanto">
+        <fields>
+          <generalXpObjectHasFields Id="b24b4a58-9ce1-4f11-bc2c-3c6c761d35df">
+            <field Id="29187b05-7f9f-4606-8557-b37a9bc93e57" name="CargadoPor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7a498f2c-2901-468d-aa41-1cfd4ef121e3">
+            <field Id="117bb540-4044-4a4e-b272-827d9656ab2b" name="FechaDeCarga" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ffe83c53-00f8-44e9-9fb8-7ff6aba7383b">
+            <field Id="e42b5c0f-0a6a-4679-b8b9-5076f32022c9" name="EditadoPor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5428e875-6c62-4712-b7fa-cb0f56bc14aa">
+            <field Id="47612640-5eba-408a-99b5-a2d408b14666" name="FechaEdicion" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="45525d68-12ac-4c08-86eb-d22b1ffee4ef">
+            <field Id="d5b15978-7877-4e30-9638-60f9b789b0b2" name="Productor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8c870926-6c53-4337-a21f-0a92a79aef74">
+            <field Id="2d392c68-a3dc-453d-b2cd-3ad8ce7b6ebf" name="NombreProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6fc98bc1-eadd-4ea9-8759-31c2a9975b28">
+            <field Id="ad550d35-d033-4c18-bc54-ccf4aabc96d3" name="TipoDocumientoProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="77664cd0-ac2d-40b2-9082-acc93d974af5">
+            <field Id="c479c0d5-fdc3-43b3-8065-f73b9c1fe0d2" name="NumeroDocumientoProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="da3c9ff3-c7d3-420b-9f24-65e9d651afd9">
+            <field Id="ff1c5ddb-03af-48c4-9377-9c0c993dd432" name="TelefonoProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="48d19a54-77a9-46ee-bec5-d3c96c086a20">
+            <field Id="b5eb227f-ffdb-4951-b7f3-e815dc6156da" name="EmailProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f4bc9554-dfc0-4c30-aa98-ff2e7a506cbd">
+            <field Id="612700df-f798-4df7-bbed-9f0cc012768a" name="EstanciaProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e5cb5143-92f0-4212-945a-ffb6722cbda6">
+            <field Id="d355fdd6-da8f-415d-8d6a-247a66a8434f" name="LocalidadProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6df12ca1-4ef0-493d-89fe-1db228c363d1">
+            <field Id="e8268fbd-abaf-4d69-9220-193b86114c66" name="DepartamientoProductor" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="75bd64a2-cc39-4d93-8c3c-fabb495f6083">
+            <field Id="e3c448a7-498e-4670-ab53-74802e6a31cc" name="HasIntactaCertificada" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="25df6bb5-1d34-4c04-b9e3-b36f6bedff26">
+            <field Id="0712c52a-f0ee-4f92-b052-1c7b16ed6597" name="RindeCertificada" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8c5605a1-d2d7-4577-a04f-4b59315600b9">
+            <field Id="07650607-f359-402a-b17e-73741a9c8406" name="HasIntactaReservaDeGrano" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4f15ff78-4166-4c9d-bbb1-a89fcbee8c18">
+            <field Id="c75e59f1-53bd-4542-b360-44bcc0b2e2e7" name="RindeReservaDeGrano" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="02f508b0-7191-4cf8-95ea-9a76d4cc1b9c">
+            <field Id="70226822-7836-45cf-a92f-1a0203f2bb9a" name="SiloEntregaGranoNombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="079ca664-8f51-403a-b1f3-e147d3869d93">
+            <field Id="337073b6-48a7-458a-8b69-18fac3ce4085" name="RazonDeLaLlamada" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bc3acd49-1c70-4c3e-8425-c9c410c82952">
+            <field Id="926e2469-b2c2-4304-9b68-fae0d17cda55" name="Comentario" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f82ca6c5-de98-468f-8b05-df85f23b4c96">
+            <field Id="b1f5b569-cf6b-4c7a-9684-65800113d2d8" name="FechaDeLaCosecha" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="65a7e51e-06c9-4286-a12a-b638eada209e">
+            <field Id="8726c0c1-869d-4866-9a6a-af471fb84a6e" name="MotivoDeLaLlamada" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d351c883-db73-44fc-ae4c-aec7b6052141">
+            <field Id="54f25c9c-d797-41eb-b143-3f6b3052373b" name="TipoDeGestion" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="82ddc427-6554-413b-83ef-a81a8226307a">
+            <field Id="4a48f1c7-902f-42c0-ac52-713dd69aa7b0" name="Canal" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="48357d48-9837-48fa-bab4-74c4e5d08de2">
+            <field Id="f02765b7-540c-451b-befa-83ca6d08fa99" name="DerivadoA" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
