@@ -152,8 +152,8 @@
     <Reference Include="Microsoft.Data.Services.Client, Version=5.8.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Data.Services.Client.5.8.4\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Npgsql, Version=4.0.6.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Npgsql.4.0.6\lib\net451\Npgsql.dll</HintPath>
+    <Reference Include="Npgsql, Version=4.0.8.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.8\lib\net451\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -161,8 +161,8 @@
     </Reference>
     <Reference Include="System.Activities" />
     <Reference Include="System.Activities.DurableInstancing" />
-    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data">
@@ -172,12 +172,12 @@
     <Reference Include="System.Drawing">
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Memory.4.5.2\lib\netstandard2.0\System.Memory.dll</HintPath>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
@@ -189,8 +189,8 @@
     <Reference Include="System.Spatial, Version=5.8.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Spatial.5.8.4\lib\net40\System.Spatial.dll</HintPath>
     </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.3\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
@@ -203,6 +203,18 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\BaseCode\Carpeta.cs" />
+    <Compile Include="BusinessObjects\BaseCode\Carpeta.Designer.cs">
+      <DependentUpon>Carpeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseCode\CarpetaDetalle.cs" />
+    <Compile Include="BusinessObjects\BaseCode\CarpetaDetalle.Designer.cs">
+      <DependentUpon>CarpetaDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseCode\CarpetaDetalleTarjeta.cs" />
+    <Compile Include="BusinessObjects\BaseCode\CarpetaDetalleTarjeta.Designer.cs">
+      <DependentUpon>CarpetaDetalleTarjeta.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusinessObjects\BaseCode\Ciudad.cs" />
     <Compile Include="BusinessObjects\BaseCode\Ciudad.Designer.cs">
       <DependentUpon>Ciudad.cs</DependentUpon>
@@ -210,6 +222,22 @@
     <Compile Include="BusinessObjects\BaseCode\Departamiento.cs" />
     <Compile Include="BusinessObjects\BaseCode\Departamiento.Designer.cs">
       <DependentUpon>Departamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseCode\GeneralXpObject1.cs" />
+    <Compile Include="BusinessObjects\BaseCode\GeneralXpObject1.Designer.cs">
+      <DependentUpon>GeneralXpObject1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseCode\Gestion.cs" />
+    <Compile Include="BusinessObjects\BaseCode\Gestion.Designer.cs">
+      <DependentUpon>Gestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseCode\GestionDetalle.cs" />
+    <Compile Include="BusinessObjects\BaseCode\GestionDetalle.Designer.cs">
+      <DependentUpon>GestionDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseCode\Instituiciones.cs" />
+    <Compile Include="BusinessObjects\BaseCode\Instituiciones.Designer.cs">
+      <DependentUpon>Instituiciones.cs</DependentUpon>
     </Compile>
     <Compile Include="BusinessObjects\BaseCode\Pais.cs" />
     <Compile Include="BusinessObjects\BaseCode\Pais.Designer.cs">
@@ -226,6 +254,10 @@
     <Compile Include="BusinessObjects\BaseCode\Silo.cs" />
     <Compile Include="BusinessObjects\BaseCode\Silo.Designer.cs">
       <DependentUpon>Silo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseCode\Socio.cs" />
+    <Compile Include="BusinessObjects\BaseCode\Socio.Designer.cs">
+      <DependentUpon>Socio.cs</DependentUpon>
     </Compile>
     <Compile Include="BusinessObjects\BaseCode\Usuario.cs" />
     <Compile Include="BusinessObjects\BaseCode\Usuario.Designer.cs">
@@ -252,6 +284,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="BusinessObjects\Base.xpo" />
     <None Include="BusinessObjects\Base.xpo.diagram">
       <DependentUpon>Base.xpo</DependentUpon>
